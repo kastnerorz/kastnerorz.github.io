@@ -39,3 +39,5 @@ jobs:
           build_dir: out
           fqdn: zedis.me
           jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
