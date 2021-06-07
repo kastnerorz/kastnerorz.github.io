@@ -1,5 +1,3 @@
-# Zed.log
-
 ## Table of Content
 
 ### Changelog
