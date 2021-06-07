@@ -18,7 +18,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
 
       - name: blogit-bot
         # You may pin to the exact commit or the version.
@@ -31,3 +30,12 @@ jobs:
           NEXT_PUBLIC_TITLE: Zed.log
           NEXT_PUBLIC_INDEX: /readme
           NEXT_PUBLIC_LINKS: Home,/readme;About,/about;GitHub,https://github.com/kastnerorz;Twitter,http://twitter.com/kastnerorz;Jike,https://web.okjike.com/u/5c8de6be-4e14-4bf5-b02a-7a97ae19c246
+       
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: out
+          fqdn: zedis.me
+          jekyll: false
