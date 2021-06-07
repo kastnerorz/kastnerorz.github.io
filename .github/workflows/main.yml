@@ -24,3 +24,9 @@ jobs:
         # You may pin to the exact commit or the version.
         # uses: renzholy/blogit@cf891af0fb29eebf5ad525f8552696385da9c895
         uses: renzholy/blogit@v0.0.18
+        env:
+          NEXT_PUBLIC_OWNER: kastnerorz
+          NEXT_PUBLIC_REPO: kastnerorz.github.io
+          NEXT_PUBLIC_BRANCH: master
+          NEXT_PUBLIC_TITLE: Zed.log
+          NEXT_PUBLIC_LINKS: Jike,https://m.okjike.com/users/5c8de6be-4e14-4bf5-b02a-7a97ae19c246
