@@ -24,6 +24,7 @@ jobs:
         # uses: renzholy/blogit@cf891af0fb29eebf5ad525f8552696385da9c895
         uses: renzholy/blogit@v0.0.18
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NEXT_PUBLIC_OWNER: kastnerorz
           NEXT_PUBLIC_REPO: kastnerorz.github.io
           NEXT_PUBLIC_BRANCH: master
