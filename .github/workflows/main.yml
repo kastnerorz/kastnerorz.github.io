@@ -29,4 +29,5 @@ jobs:
           NEXT_PUBLIC_REPO: kastnerorz.github.io
           NEXT_PUBLIC_BRANCH: master
           NEXT_PUBLIC_TITLE: Zed.log
-          NEXT_PUBLIC_LINKS: Jike,https://m.okjike.com/users/5c8de6be-4e14-4bf5-b02a-7a97ae19c246
+          NEXT_PUBLIC_INDEX: /readme
+          NEXT_PUBLIC_LINKS: Home,/readme;About,/about;GitHub,https://github.com/kastnerorz;Twitter,http://twitter.com/kastnerorz;Jike,https://web.okjike.com/u/5c8de6be-4e14-4bf5-b02a-7a97ae19c246
